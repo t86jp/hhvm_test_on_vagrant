@@ -30,7 +30,7 @@ Vagrant::Config.run do |config|
   config.vm.forward_port 3306, 3306
   config.vm.share_folder 'v-data', '/app', '~/proj/hhvm-sop'
 
-  #config.vm.provision :shell, :inline => build_script
-  #config.vm.provision :shell, :path => './provisioners/hhvm.sh'
-  #config.vm.provision :shell, :path => './provisioners/php.sh'
+  config.vm.provision :shell, :inline => build_script
+  config.vm.provision :shell, :path => './provisioners/hhvm.sh'
+  config.vm.provision :shell, :path => './provisioners/php.sh'
 end

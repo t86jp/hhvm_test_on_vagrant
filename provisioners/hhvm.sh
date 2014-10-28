@@ -11,5 +11,5 @@ sudo cp /app/config/etc/nginx/conf.d/* /etc/nginx/conf.d/
 
 sudo service nginx restart
 
-cd /app/www/zencart
+cd /app/www/
 hhvm --mode server -vServer.Type=fastcgi -vServer.Port=9000
