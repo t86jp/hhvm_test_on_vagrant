@@ -112,7 +112,9 @@ OSSのショッピングカート
 結論
 ----------
 
-使えたければ使えばいいと思う
+* HACKの学習コストは低い
+* 対応していないextensionとかもある
+* 使えたければ使えばいいと思う
 
 
 参考
@@ -120,3 +122,4 @@ OSSのショッピングカート
   * [HHVM](http://hhvm.com/)
   * [HACKリファレンス](http://docs.hhvm.com/manual/en/index.php)
   * [HHVM with Symfony 2 looks amazing](http://blog.liip.ch/archive/2013/10/29/hhvm-and-symfony2.html)
+  * [ファイル一式](https://github.com/t86jp/hhvm_test_on_vagrant)
