@@ -1,4 +1,7 @@
-.swp
+*.swp
 .vagrant
 www/www.pid
 www/zencart
+css
+js
+index.html
